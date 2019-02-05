@@ -1,9 +1,16 @@
 {
   "name": "electron-update-example",
-  "version": "0.5.0",
+  "version": "0.1.0",
   "main": "main.js",
   "description": "",
   "author": "",
+  "scripts": {
+    "server": "node_modules/.bin/http-server wwwroot/ -p 8080",
+    "build-win64": "node_modules/.bin/build --win ---x64",
+    "build-win32": "node_modules/.bin/build --win --ia32",
+    "build-linux": "node_modules/.bin/build --linux --x64",
+    "build-mac": "node_modules/.bin/build --mac"
+  },
   "devDependencies": {
     "electron": "4.0.2",
     "electron-builder": "20.38.5",
