@@ -1,6 +1,6 @@
 {
   "name": "electron-update-example",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "main": "main.js",
   "description": "",
   "author": "",
@@ -32,6 +32,9 @@
       "target": [
         "nsis"
       ]
+    },
+    "linux": {
+      "target": ["AppImage"]
     },
     "nsisWeb": {
       "differentialPackage": true,
