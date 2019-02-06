@@ -32,6 +32,7 @@
     "mac": {
       "category": "your.app.category.type",
       "target": [
+        "zip",
         "dmg"
       ]
     },
