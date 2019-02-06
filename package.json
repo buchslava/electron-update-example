@@ -24,14 +24,14 @@
     "publish": [
       {
         "provider": "s3",
-        "bucket": "gapminder-offline", "path": "new-version"
+        "bucket": "gapminder-offline",
+        "path": "new-version"
       }
     ],
     "appId": "com.github.iffy.electronupdatergenericexample",
     "mac": {
       "category": "your.app.category.type",
       "target": [
-        "zip",
         "dmg"
       ]
     },
